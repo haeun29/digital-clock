@@ -1,0 +1,41 @@
+@font-face { 
+    font-family: 'digital-7';
+    src: url('./font/digital-7/digital-7.ttf');
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    display: flex; /*중앙 정렬*/
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    
+    
+}
+
+.clock { 
+    background: #999;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5),
+    0 0 8px rgba(0, 0, 0, 0.7)inset; /*그림자가 안으로 들어가게 inset*/
+    /* width: 400px; */
+    height: 140px;
+    padding: 40px;
+    display: flex; /*중앙 정렬*/
+    justify-content: center;
+    align-items: center; 
+    border: 10px solid #333;
+    border-radius: 10px;
+    font-size: 90px;
+    font-family: 'digital-7', monospace;
+}
+
+.clock .container { 
+    display: flex;
+}
