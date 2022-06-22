@@ -9,6 +9,7 @@ $(function (){
     let h = d.getHours(); //시간변수
     let m = d.getMinutes(); //분
     let s = d.getSeconds(); //초
+    let ap = d.getHours();
 
     // console.log(h,m,s);
 
@@ -47,6 +48,7 @@ $(function (){
     $('.hour').html(h);
     $('.min').html(m);
     $('.sec').html(s);
+    $('.amPm').html(ap);
     },1000);
 
 
