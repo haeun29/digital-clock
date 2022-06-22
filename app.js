@@ -31,7 +31,11 @@ $(function (){
    
 
     //과제 : 오전 오후 표시 - 24시간제 if ()
-
+     if (ap >= 12, ap++) {
+        ap = 'pm';
+     } else {
+        ap = 'am';
+     }
 
 
     //과제 : 50분이 되면 '휴식시간' 경고창 띄우기
@@ -48,7 +52,7 @@ $(function (){
     $('.hour').html(h);
     $('.min').html(m);
     $('.sec').html(s);
-    $('.amPm').html(ap);
+    $('.amPm').html(ap).css('font-size','16px');
     },1000);
 
 

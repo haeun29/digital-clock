@@ -24,7 +24,7 @@ body {
     background: #999;
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.5),
     0 0 8px rgba(0, 0, 0, 0.7)inset; /*그림자가 안으로 들어가게 inset*/
-    /* width: 400px; */
+    width: 400px;
     height: 140px;
     padding: 40px;
     display: flex; /*중앙 정렬*/
@@ -34,8 +34,10 @@ body {
     border-radius: 10px;
     font-size: 90px;
     font-family: 'digital-7', monospace;
+    
 }
 
 .clock .container { 
     display: flex;
 }
+
